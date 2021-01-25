@@ -17,9 +17,10 @@ client.on("ready", () => {
     console.log("Bot is online!");
     // Set the client user's presence
     client.user.setPresence({
-    activity: {
-        name: 'with discord.js'
+        activity: {
+            name: 'with discord.js'
         }, status: 'idle'
     });
 });
 
+// For more info go to https://discord.js.org/#/docs/main/stable/class/ClientUser
