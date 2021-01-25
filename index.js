@@ -18,8 +18,8 @@ client.on("ready", () => {
     // Set the client user's presence
     client.user.setPresence({
         activity: {
-            name: 'with discord.js'
-        }, status: 'idle'
+            name: "Bot message here"
+        }, status: "idle" // Can be online, dnd, etc.
     });
 });
 
